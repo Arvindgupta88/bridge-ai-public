@@ -1,0 +1,32 @@
+# Python environments and caches
+.venv/
+venv/
+.venv313/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Credentials and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Runtime data and generated files
+data/
+output/
+outputs/
+tmp/
+work/
+*.log
+
+# Documents supplied locally
+*.pdf
+
+# Editor and agent files
+.vscode/
+.idea/
+.agents/
+.codex/
